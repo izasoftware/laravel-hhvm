@@ -14,6 +14,6 @@ You can then run the image by mapping the laravel root folder to /var/www:
 * -P exposes the port 8080 to a random port  
 * If you need a different port, specifiy in config or change to `-p local:8080' (lowercase p here)
 ````bash
-docker run --name=hbf -v /e/sites/hotelbonanza-frontend:/var/www -P ganey/laravel-hhvm
+docker run --name=proj -v /e/sites/project-name:/var/www -P ganey/laravel-hhvm
 ````
 
